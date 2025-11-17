@@ -13,7 +13,7 @@ const ProfileUpload = () => {
     const [error, setError] = useState('');
     const [success, setSuccess] = useState('');
 
-    const API_URL = 'http://localhost:5000/api';
+    const API_URL = 'https://profile-upload-app.onrender.com/api';
 
 
     const handleInputChange = (e) => {
