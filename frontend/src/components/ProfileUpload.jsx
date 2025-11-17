@@ -135,9 +135,7 @@ const ProfileUpload = () => {
                     <p className="text-gray-600">Upload your profile picture and create your account</p>
                 </div>
 
-                {/* Changed from grid to flex */}
                 <div className="flex flex-col md:flex-row gap-8">
-                    {/* Left Column - Upload Form */}
                     <div className="flex-1 bg-white rounded-2xl shadow-xl p-8">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-6">Upload Details</h2>
 
@@ -312,7 +310,6 @@ const ProfileUpload = () => {
                         </div>
                     </div>
 
-                    {/* Right Column - Profile Preview */}
                     <div className="flex-1 bg-white rounded-2xl shadow-xl p-8">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-6">Profile Preview</h2>
 
